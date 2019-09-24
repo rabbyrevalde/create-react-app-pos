@@ -1,0 +1,49 @@
+[
+  {
+    "id": "0",
+    "category": "Fresh Fruits",
+    "items": [
+      {
+        "title": "Fresh Banana",
+        "photo": "fruits.jpeg",
+        "price": "15"
+      },
+      {
+        "title": "Fresh Avocado",
+        "photo": "fruits.jpeg",
+        "price": "17"
+      },
+      {
+        "title": "Pineapple",
+        "photo": "fruits.jpeg",
+        "price": "20"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "category": "Groceries",
+    "items": [
+      {
+        "title": "Fresh Banana2",
+        "photo": "fruits.jpeg",
+        "price": "15"
+      },
+      {
+        "title": "Fresh Avocado2",
+        "photo": "fruits.jpeg",
+        "price": "17"
+      },
+      {
+        "title": "Pineapple1",
+        "photo": "fruits.jpeg",
+        "price": "20"
+      },
+      {
+        "title": "Pineapple2",
+        "photo": "fruits.jpeg",
+        "price": "20"
+      }
+    ]
+  }
+]

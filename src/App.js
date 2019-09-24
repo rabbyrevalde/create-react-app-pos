@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import data from "./data/categories";
+import Layout from "./components/Layout";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <div className="App container">
+        <h1 className="text-center py-3">Categories</h1>
+        <div className="categories container">
+          {data.map(item => (
+            <div className="category" key={item.id}>
+              {/* <CategoryLink catid={item.id} slug={item.category} /> */}
+              <p className="total-item-per-cat">{item.items.length}</p>
+              <p className="category-name">{item.category}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Layout>
   );
 }
 
 export default App;
+
+function convertToSlug(Text) {
+  return Text.toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/[^\w-]+/g, "");
+}
