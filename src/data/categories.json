@@ -1,12 +1,12 @@
 [
   {
-    "id": "0",
+    "id": 1,
     "category": "Fresh Fruits",
     "items": [
       {
         "title": "Fresh Banana",
         "photo": "fruits.jpeg",
-        "price": "15"
+        "price": "15.36"
       },
       {
         "title": "Fresh Avocado",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "id": "1",
+    "id": 2,
     "category": "Groceries",
     "items": [
       {
@@ -37,10 +37,51 @@
       {
         "title": "Pineapple1",
         "photo": "fruits.jpeg",
-        "price": "20"
+        "price": "20.50"
       },
       {
         "title": "Pineapple2",
+        "photo": "fruits.jpeg",
+        "price": "20"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "RICE/CORN",
+    "items": [
+      {
+        "title": "Special Lily",
+        "photo": "fruits.jpeg",
+        "price": "15.16"
+      },
+      {
+        "title": "Ganador",
+        "photo": "fruits.jpeg",
+        "price": "17"
+      },
+      {
+        "title": "Doña Maria Jasponica",
+        "photo": "fruits.jpeg",
+        "price": "20.18"
+      },
+      {
+        "title": "Harvester’s Dinorado Rice",
+        "photo": "fruits.jpeg",
+        "price": "20"
+      },
+      {
+        "title": "Lion Ivory",
+        "photo": "fruits.jpeg",
+        "price": "20"
+      },
+      {
+        "title": "Bull'e Eye",
+        "photo": "fruits.jpeg",
+        "price": "20"
+      },
+      {
+        "title": "Lovely rice",
         "photo": "fruits.jpeg",
         "price": "20"
       }

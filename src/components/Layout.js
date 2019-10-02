@@ -5,12 +5,10 @@ import Sidebar from "./Sidebar";
 const Layout = ({ children }) => {
   return (
     <div className="container-fluid">
+      <Header />
       <div className="row">
-        <div className="col-md-9 p-0">
-          <Header />
-          {children}
-        </div>
-        <div className="col-md-3 p-0">
+        <div className="col-md-10">{children}</div>
+        <div className="col-md-2 p-0">
           <Sidebar />
         </div>
       </div>
